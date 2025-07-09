@@ -30,34 +30,41 @@ Step 2: Launch an EC2 Instance
 
 
 Step 3: Connect to EC2 via SSH
-   #  chmod 400 your-key.pem
-   #  ssh -i "your-key.pem" ubuntu@your-ec2-public-ip
+   chmod 400 your-key.pem
+   ssh -i "your-key.pem" ubuntu@your-ec2-public-ip
 
 
 Step 4: Install Docker
-   # sudo apt update
-   # sudo apt install docker.io -y
-   # sudo systemctl enable docker
-   # sudo systemctl start docker
+   * sudo apt update
+      ![Update-Package](https://github.com/user-attachments/assets/7375a047-eff3-4118-8eef-8b4449dd90c4)
+   * sudo apt install docker.io -y
+     ![Install-Docker](https://github.com/user-attachments/assets/8c93540e-bbca-40a0-ba49-b7b2cece34fd)
+
+   * sudo systemctl enable docker
+   * sudo systemctl start docker
 Verify: 
-   # docker --version
+   * docker --version
 ![Install-Docker](https://github.com/user-attachments/assets/62b92938-a25d-446b-b44a-d741fcdef02d)   
 
 Step 5: Run a Web Server Container
     You can use Nginx or Apache:
-   # sudo docker run -d -p 80:80 nginx
+   * sudo docker run -d -p 80:80 nginx
    
-     
+     ![Running Container](https://github.com/user-attachments/assets/0a60d3dc-d448-4a3d-8c69-dff4327242ef)
+
 Step 6: Test Web Server
-    http://<your-ec2-public-ip>
+   * http://<your-ec2-public-ip>
 *** You should see Welcome to nginx! or Apache's default page. ***
 
 
 ### If you want to add your own HTML page: ###
     Indside The container, edit Index.html file (Paste your code)
   Commands:
-      # docker exec -it <Container_name> /bin/sh  
+      * docker exec -it <Container_name> /bin/sh  
               OR 
-      # docker exec -it <Container_name> /bin/bash
+      * docker exec -it <Container_name> /bin/bash
+
+### Refresh Webpage 
       
 
+![Web-Run](https://github.com/user-attachments/assets/86c3042e-1cf9-40c0-beaa-4f9705c27b35)
