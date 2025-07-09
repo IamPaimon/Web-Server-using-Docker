@@ -80,6 +80,8 @@ Step 6: Test Web Server
 
 ### If you want to add your own HTML page: ###
     Indside The container, edit Index.html file (Paste your code)
+     Location : /usr/share/nginx/html/
+     
   Commands:
       * docker ps -a 
       ![Container_is_Running](https://github.com/user-attachments/assets/cefbd185-952a-4d5b-beb6-1752adf51f42)
