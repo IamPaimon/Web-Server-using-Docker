@@ -10,7 +10,7 @@ Hosting web server using docker
 
 
 ### ✅ Step-by-Step Process  ###
-# Step 1: Create AWS Free Tier Account
+Step 1: Create AWS Free Tier Account
     Go to https://aws.amazon.com/free
     Sign up with a credit/debit card (no charges if you stay within limits).
     Log in to the AWS Management Console.
