@@ -1,4 +1,5 @@
-![Web Server Preview](https://raw.githubusercontent.com/IamPaimon/Web-Server-using-Docker/main/assets/banner.png)
+
+![banner](https://github.com/user-attachments/assets/5451362d-7e81-45b8-9eac-6f4bbb725d3d)
 
 ### ✅ Features
 - 🐳 Docker-based deployment
