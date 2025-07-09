@@ -60,6 +60,7 @@ Step 4: Install Docker
 
    * sudo systemctl enable docker
    * sudo systemctl start docker
+   * 
 Verify: 
    * docker --version
 ![Docker-Version](https://github.com/user-attachments/assets/585c357a-f585-4434-b3fd-907d1e8958b5)
