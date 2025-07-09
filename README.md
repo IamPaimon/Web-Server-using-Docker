@@ -1,3 +1,12 @@
+![Web Server Preview](https://raw.githubusercontent.com/IamPaimon/Web-Server-using-Docker/main/assets/banner.png)
+
+### ✅ Features
+- 🐳 Docker-based deployment
+- 🖥️ Web Server (Nginx/Apache)
+- ☁️ Hosted on AWS EC2 Free Tier
+- 🔒 Secure and lightweight
+
+
 # Web-Server-using-Docker
 Hosting web server using docker 
 
