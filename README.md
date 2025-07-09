@@ -16,7 +16,7 @@ Step 1: Create AWS Free Tier Account
     Log in to the AWS Management Console.
 
 
-Step 2: Launch an EC2 Instance
+Step 2: Launch an EC2 Instance 
     Search for “EC2” in the AWS Console → Click Launch Instance.
     Set:
         Name: docker-webserver
