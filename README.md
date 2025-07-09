@@ -44,13 +44,13 @@ Step 4: Install Docker
    * sudo systemctl start docker
 Verify: 
    * docker --version
-![Install-Docker](https://github.com/user-attachments/assets/62b92938-a25d-446b-b44a-d741fcdef02d)   
+![Docker-Version](https://github.com/user-attachments/assets/585c357a-f585-4434-b3fd-907d1e8958b5)
 
 Step 5: Run a Web Server Container
     You can use Nginx or Apache:
    * sudo docker run -d -p 80:80 nginx
    
-     ![Running Container](https://github.com/user-attachments/assets/0a60d3dc-d448-4a3d-8c69-dff4327242ef)
+
 
 Step 6: Test Web Server
    * http://<your-ec2-public-ip>
@@ -60,9 +60,14 @@ Step 6: Test Web Server
 ### If you want to add your own HTML page: ###
     Indside The container, edit Index.html file (Paste your code)
   Commands:
+      * docker ps -a 
+      ![Container_is_Running](https://github.com/user-attachments/assets/cefbd185-952a-4d5b-beb6-1752adf51f42)
+
       * docker exec -it <Container_name> /bin/sh  
               OR 
       * docker exec -it <Container_name> /bin/bash
+
+![Inside_Container](https://github.com/user-attachments/assets/cc6fb412-4ab6-4486-a06d-a46d79414bee)
 
 ### Refresh Webpage 
       
