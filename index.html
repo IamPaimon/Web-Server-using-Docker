@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>0xHackers - Welcome</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #00ff66;
+      font-family: 'Courier New', monospace;
+    }
+
+    .glow {
+      text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66;
+    }
+
+    .typewriter {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: .15em solid #00ff66;
+      animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #00ff66; }
+    }
+  </style>
+</head>
+<body class="h-screen flex items-center justify-center flex-col">
+
+  <h1 class="text-4xl md:text-6xl glow typewriter">root@0xHackers:~# ./start.sh</h1>
+  <h2 class="text-3xl md:text-4xl glow typewriter">RITESH - DEVOPS </h2>
+  <p class="mt-4 text-xl text-green-400 text-center max-w-xl">Welcome to the underground world. Tools, guides, CTFs, and secrets await.</p>
+
+  <div class="mt-10 space-x-6">
+    <a href="#tools" class="bg-green-500 text-black px-4 py-2 rounded hover:bg-green-400">Tools</a>
+    <a href="#ctf" class="bg-green-500 text-black px-4 py-2 rounded hover:bg-green-400">CTFs</a>
+    <a href="#blog" class="bg-green-500 text-black px-4 py-2 rounded hover:bg-green-400">Blog</a>
+  </div>
+
+  <footer class="a
