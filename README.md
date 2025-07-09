@@ -12,11 +12,11 @@ Hosting web server using docker
 ### ✅ Step-by-Step Process  ###
 Step 1: Create AWS Free Tier Account
 
-       * Go to https://aws.amazon.com/free
+       *  Go to https://aws.amazon.com/free
        
-       * Sign up with a credit/debit card (no charges if you stay within limits).
+       *  Sign up with a credit/debit card (no charges if you stay within limits).
        
-       * Log in to the AWS Management Console.
+       *  Log in to the AWS Management Console.
        
 
 
@@ -46,9 +46,9 @@ Step 2: Launch an EC2 Instance
 
 Step 3: Connect to EC2 via SSH
 
-    * chmod 400 your-key.pem
+    *  chmod 400 your-key.pem
     
-    * ssh -i "your-key.pem" ubuntu@your-ec2-public-ip
+    *  ssh -i "your-key.pem" ubuntu@your-ec2-public-ip
     
 
 
@@ -81,14 +81,15 @@ Step 6: Test Web Server
 ### If you want to add your own HTML page: ###
     Indside The container, edit Index.html file (Paste your code)
      Location : /usr/share/nginx/html/
-     
+     ![Index_Location](https://github.com/user-attachments/assets/8cfa2267-ce65-491d-b756-985ab5e3a8fe)
+
   Commands:
       * docker ps -a 
       ![Container_is_Running](https://github.com/user-attachments/assets/cefbd185-952a-4d5b-beb6-1752adf51f42)
 
-      * docker exec -it <Container_name> /bin/sh  
-              OR 
-      * docker exec -it <Container_name> /bin/bash
+      *  docker exec -it <Container_name> /bin/sh  
+                           OR 
+      *  docker exec -it <Container_name> /bin/bash
 
 ![Inside_Container](https://github.com/user-attachments/assets/cc6fb412-4ab6-4486-a06d-a46d79414bee)
 
