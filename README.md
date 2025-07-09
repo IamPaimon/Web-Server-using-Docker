@@ -60,9 +60,11 @@ Step 4: Install Docker
 
    * sudo systemctl enable docker
    * sudo systemctl start docker
-   * 
-Verify: 
+      ![Running Container](https://github.com/user-attachments/assets/e6acbee7-1708-4e3c-beb9-799060bb0af5)
+Verify:
+
    * docker --version
+     
 ![Docker-Version](https://github.com/user-attachments/assets/585c357a-f585-4434-b3fd-907d1e8958b5)
 
 Step 5: Run a Web Server Container
