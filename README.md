@@ -81,7 +81,8 @@ Step 6: Test Web Server
 ### If you want to add your own HTML page: ###
     Indside The container, edit Index.html file (Paste your code)
      Location : /usr/share/nginx/html/
-     ![Index_Location](https://github.com/user-attachments/assets/8cfa2267-ce65-491d-b756-985ab5e3a8fe)
+     
+![Index_Location](https://github.com/user-attachments/assets/8cfa2267-ce65-491d-b756-985ab5e3a8fe)
 
   Commands:
       * docker ps -a 
